@@ -13,4 +13,4 @@ source ${PYENV_PATH}/bin/activate \
     && python -m pip install --upgrade pip \
     && pip install -r "${FILEDIR}/requirements.txt" \
     && source ~/.wisky_env \
-    && python "${FILEDIR}/cro_wallet_monitor.py"
+    && python "${FILEDIR}/src/cro_wallet_monitor.py"
